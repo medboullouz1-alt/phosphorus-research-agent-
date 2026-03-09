@@ -140,31 +140,4 @@ def send_test() -> bool:
 
 def send_error(msg: str):
     _send(f"⚠️ *Research Agent Error*\n\n{_esc(msg)}")
-```
 
----
-
-## Also create — `data/README.md`
-
-Create a file with **exactly this path**: `data/README.md`
-```
-This folder stores the SQLite database and CSV export.
-Both files are automatically created and updated by the agent after each daily run.
-```
-
----
-
-## ✅ Checklist — your repository must contain these files:
-```
-main.py
-config.py
-database.py
-search_engine.py
-paper_analyzer.py
-telegram_sender.py
-requirements.txt          ← already there from earlier
-.github/
-  workflows/
-    daily_digest.yml      ← already there from earlier
-data/
-  README.md
