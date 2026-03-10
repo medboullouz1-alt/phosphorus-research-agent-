@@ -1,5 +1,5 @@
 """
-Main pipeline — runs once per day via GitHub Actions.
+Main pipeline — 3 deep papers per day via GitHub Actions.
 """
 import logging, sys, time
 from datetime import datetime, timezone
@@ -29,19 +29,21 @@ def run():
     database.init_db()
     theme = config.get_today_theme()
     logger.info("Theme: %s %s", theme["emoji"], theme["name"])
+    logger.info("Papers per day: %d", config.PAPERS_PER_DAY)
 
-    # 1 — Search
-    candidates = search_engine.search_literature(theme, n=config.PAPERS_PER_DAY + 5)
-    if len(candidates) < 3:
-        msg = f"Only {len(candidates)} papers found — skipping today."
+    # 1 — Search (fetch more candidates, pick best 3)
+    candidates = search_engine.search_literature(theme, n=config.PAPERS_PER_DAY + 7)
+    if len(candidates) < 1:
+        msg = f"No papers found today. Skipping."
         logger.warning(msg)
         telegram_sender.send_error(msg)
         return
 
-    # 2 — Analyze
+    # 2 — Deep analyze top 3
     analyzed, ids = [], []
     for i, paper in enumerate(candidates[:config.PAPERS_PER_DAY], 1):
-        logger.info("Analyzing %d/%d: %s", i, config.PAPERS_PER_DAY,
+        logger.info("Deep analyzing %d/%d: %s",
+                    i, config.PAPERS_PER_DAY,
                     (paper.get("title") or "")[:70])
         paper["theme"] = theme["name"]
         paper = paper_analyzer.analyze_paper(paper, theme)
@@ -51,11 +53,11 @@ def run():
         time.sleep(4)
 
     # 3 — Synthesize
-    logger.info("Generating synthesis...")
+    logger.info("Generating synthesis across %d papers...", len(analyzed))
     synthesis = paper_analyzer.synthesize_papers(analyzed, theme)
     time.sleep(4)
 
-    # 4 — Deliver
+    # 4 — Deliver to Telegram
     logger.info("Sending Telegram digest...")
     sent = telegram_sender.send_digest(analyzed, theme, synthesis, date_str)
     logger.info("Telegram sent: %s", sent)
@@ -73,7 +75,7 @@ def run():
         "telegram_sent": sent
     })
     database.export_csv()
-    logger.info("Done in %.1f seconds | Papers: %d", time.time() - start, len(analyzed))
+    logger.info("Done in %.1f seconds | Papers analyzed: %d", time.time() - start, len(analyzed))
 
 
 if __name__ == "__main__":
