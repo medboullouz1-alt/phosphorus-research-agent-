@@ -181,3 +181,102 @@
 2026-03-09 10:22:47,553 | INFO     | Telegram sent: False
 2026-03-09 10:22:47,557 | INFO     | CSV exported: data/papers_database.csv
 2026-03-09 10:22:47,557 | INFO     | Done in 347.6 seconds | Papers: 10
+2026-03-10 08:04:54,850 | INFO     | =======================================================
+2026-03-10 08:04:54,850 | INFO     | PIPELINE START — Tuesday, 10 March 2026
+2026-03-10 08:04:54,851 | INFO     | =======================================================
+2026-03-10 08:04:54,851 | INFO     | Database ready.
+2026-03-10 08:04:54,851 | INFO     | Theme: 🧩 Integrated Nutrient Management
+2026-03-10 08:04:54,851 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-10 08:04:56,358 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:04:59,837 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:06,379 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:18,511 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-10 08:05:20,577 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:23,956 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:30,534 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:42,745 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-10 08:05:43,641 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:47,032 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:05:53,437 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:06,372 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-10 08:06:07,143 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:10,426 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:16,580 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:28,650 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-10 08:06:29,586 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:32,784 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:38,928 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:51,635 | INFO     | Searching: integrated nutrient management phosphorus
+2026-03-10 08:06:52,586 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:06:55,792 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:02,084 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:15,791 | INFO     | Searching: INM GHG
+2026-03-10 08:07:16,424 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:19,688 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:25,889 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:38,764 | INFO     | Searching: combined organic mineral P
+2026-03-10 08:07:39,486 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:42,622 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:07:48,794 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf
+2026-03-10 08:08:03,083 | INFO     | Unique papers found: 245
+2026-03-10 08:08:03,083 | INFO     | Fresh (not yet processed): 239
+2026-03-10 08:08:03,088 | INFO     | Analyzing 1/10: Multiple benefits of legumes for agriculture sustainability: an overvi
+2026-03-10 08:08:03,228 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:08:08,341 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:08:13,446 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:08:22,450 | INFO     | Analyzing 2/10: Terrestrial ecosystem production: A process model based on global sate
+2026-03-10 08:08:22,561 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:08:27,670 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:08:32,775 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:08:41,779 | INFO     | Analyzing 3/10: Earth beyond six of nine planetary boundaries
+2026-03-10 08:08:41,880 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:08:46,998 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:08:52,096 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:09:01,119 | INFO     | Analyzing 4/10: Agricultural uses of plant biostimulants
+2026-03-10 08:09:01,230 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:09:06,338 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:09:11,441 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:09:20,446 | INFO     | Analyzing 5/10: LIFE-CYCLE ASSESSMENT OF NET GREENHOUSE-GAS FLUX FOR BIOENERGY CROPPIN
+2026-03-10 08:09:20,554 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:09:25,658 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:09:30,770 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:09:39,774 | INFO     | Analyzing 6/10: Linking N2O emissions from biochar-amended soil to the structure and f
+2026-03-10 08:09:39,892 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:09:45,006 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:09:50,118 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:09:59,122 | INFO     | Analyzing 7/10: Environmental, Energetic, and Economic Comparisons of Organic and Conv
+2026-03-10 08:09:59,232 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:10:04,338 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:10:09,449 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:10:18,453 | INFO     | Analyzing 8/10: Biomass use, production, feed efficiencies, and greenhouse gas emissio
+2026-03-10 08:10:18,561 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:10:23,670 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:10:28,762 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:10:37,766 | INFO     | Analyzing 9/10: Biochar physicochemical properties: pyrolysis temperature and feedstoc
+2026-03-10 08:10:37,873 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:10:42,981 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:10:48,084 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:10:57,088 | INFO     | Analyzing 10/10: Effects of simulated drought and nitrogen fertilizer on plant producti
+2026-03-10 08:10:57,201 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:11:02,300 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:11:07,415 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:11:16,420 | INFO     | Generating synthesis...
+2026-03-10 08:11:16,529 | ERROR    | Gemini HTTP 403 on attempt 1
+2026-03-10 08:11:21,640 | ERROR    | Gemini HTTP 403 on attempt 2
+2026-03-10 08:11:26,755 | ERROR    | Gemini HTTP 403 on attempt 3
+2026-03-10 08:11:35,756 | INFO     | Sending Telegram digest...
+2026-03-10 08:11:35,758 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:37,258 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:38,758 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:40,259 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:41,759 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:43,260 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:44,760 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:46,260 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:47,761 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:49,261 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:50,761 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:52,262 | ERROR    | Telegram credentials missing
+2026-03-10 08:11:53,762 | INFO     | Telegram sent: False
+2026-03-10 08:11:53,767 | INFO     | CSV exported: data/papers_database.csv
+2026-03-10 08:11:53,767 | INFO     | Done in 418.9 seconds | Papers: 10
