@@ -192,10 +192,13 @@ def search_literature(theme: dict, n=15) -> list:
     for q in queries:
         logger.info("Searching: %s", q)
         all_papers += _openalex(q, 15)
-        all_papers += _semantic(q, 15)
-        all_papers += _crossref(q, 10)
-        all_papers += _pubmed(q, 10)
         time.sleep(1)
+        all_papers += _semantic(q, 15)
+        time.sleep(2)  # Increase delay for Semantic Scholar
+        all_papers += _crossref(q, 10)
+        time.sleep(1)
+        all_papers += _pubmed(q, 10)
+        time.sleep(2)
     unique = _dedup(all_papers)
     logger.info("Unique papers found: %d", len(unique))
     fresh  = [p for p in unique if (p.get("doi") or "").lower() not in seen]
