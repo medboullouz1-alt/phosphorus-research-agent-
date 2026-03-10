@@ -13,7 +13,8 @@ MAX_LEN = 4000
 
 def _esc(text: str) -> str:
     """Escape MarkdownV2 special characters."""
-    return re.sub(r"([_*\[\]()~`>#+=|{}.!\\-])", r"\\\1", str(text or ""))
+    # List of characters to escape: _ * [ ] ( ) ~ ` > # + - = | { } . !
+    return re.sub(r"([_*\[\]()~`>#+\-=|{}.!\\])", r"\\\1", str(text or ""))
 
 
 def _send(text: str) -> bool:
@@ -140,4 +141,3 @@ def send_test() -> bool:
 
 def send_error(msg: str):
     _send(f"⚠️ *Research Agent Error*\n\n{_esc(msg)}")
-
