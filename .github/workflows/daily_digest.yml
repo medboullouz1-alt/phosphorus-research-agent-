@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      NCBI_EMAIL:         ${{ secrets.NCBI_EMAIL }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,14 +30,9 @@ jobs:
         run: pip install requests
 
       - name: Run daily research pipeline
-        env:
-          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-          NCBI_EMAIL:         ${{ secrets.NCBI_EMAIL }}
         run: python main.py
 
-      - name: Save updated archive to repository
+      - name: Save updated archive
         run: |
           git config user.name  "Research Agent Bot"
           git config user.email "actions@github.com"
