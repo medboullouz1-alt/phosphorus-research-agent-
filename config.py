@@ -1,16 +1,13 @@
-"""
-Configuration — 100% FREE stack
-"""
 import os
 from datetime import datetime
 
-GEMINI_API_KEY     = os.getenv("GEMINI_API_KEY", "")
+GROQ_API_KEY       = os.getenv("GROQ_API_KEY", "")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID", "")
 NCBI_EMAIL         = os.getenv("NCBI_EMAIL", "researcher@example.com")
 
-PAPERS_PER_DAY = 10
-GEMINI_MODEL   = "gemini-1.5-flash"
+PAPERS_PER_DAY = 3
+GROQ_MODEL     = "llama-3.1-8b-instant"
 DATABASE_PATH  = "data/research_archive.db"
 LOG_PATH       = "data/agent.log"
 
