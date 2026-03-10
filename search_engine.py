@@ -1,5 +1,5 @@
 """
-Literature search — 4 free APIs: OpenAlex, Semantic Scholar, CrossRef, PubMed
+Literature search — 4 free APIs with open access detection
 """
 import time, logging, math, requests
 from typing import Optional
@@ -26,7 +26,8 @@ def _openalex(query, n=20) -> list:
         "sort": "cited_by_count:desc",
         "per_page": n,
         "select": "id,doi,title,authorships,publication_year,"
-                  "primary_location,abstract_inverted_index,cited_by_count"})
+                  "primary_location,abstract_inverted_index,"
+                  "cited_by_count,open_access"})
     if not data:
         return []
     out = []
@@ -37,6 +38,8 @@ def _openalex(query, n=20) -> list:
         loc = (w.get("primary_location") or {})
         src = (loc.get("source") or {})
         doi = (w.get("doi") or "").replace("https://doi.org/", "")
+        oa  = (w.get("open_access") or {}).get("is_oa", False)
+        pdf = (w.get("open_access") or {}).get("oa_url", "")
         out.append({
             "doi": doi,
             "title": w.get("title", ""),
@@ -47,7 +50,8 @@ def _openalex(query, n=20) -> list:
             "year": w.get("publication_year"),
             "abstract": abstract,
             "citation_count": w.get("cited_by_count", 0),
-            "url": loc.get("landing_page_url") or
+            "open_access": oa,
+            "url": pdf or loc.get("landing_page_url") or
                    (f"https://doi.org/{doi}" if doi else ""),
             "source": "OpenAlex"})
     return out
@@ -56,7 +60,7 @@ def _semantic(query, n=20) -> list:
     data = _get("https://api.semanticscholar.org/graph/v1/paper/search", {
         "query": query, "limit": n,
         "fields": "paperId,title,authors,year,externalIds,"
-                  "abstract,journal,citationCount,openAccessPdf"})
+                  "abstract,journal,citationCount,openAccessPdf,isOpenAccess"})
     if not data:
         return []
     out = []
@@ -64,6 +68,7 @@ def _semantic(query, n=20) -> list:
         doi = (p.get("externalIds") or {}).get("DOI", "")
         j   = (p.get("journal") or {}).get("name", "")
         pdf = (p.get("openAccessPdf") or {}).get("url", "")
+        oa  = p.get("isOpenAccess", False)
         out.append({
             "doi": doi,
             "title": p.get("title", ""),
@@ -73,6 +78,7 @@ def _semantic(query, n=20) -> list:
             "year": p.get("year"),
             "abstract": p.get("abstract") or "",
             "citation_count": p.get("citationCount", 0),
+            "open_access": oa,
             "url": pdf or (f"https://doi.org/{doi}" if doi else ""),
             "source": "Semantic Scholar"})
     return out
@@ -82,23 +88,26 @@ def _crossref(query, n=15) -> list:
         "query": query, "rows": n, "sort": "relevance",
         "filter": "type:journal-article",
         "select": "DOI,title,author,published,container-title,"
-                  "is-referenced-by-count,URL"})
+                  "is-referenced-by-count,URL,license"})
     if not data:
         return []
     out = []
     for item in data.get("message", {}).get("items", []):
-        doi    = item.get("DOI", "")
-        title  = (item.get("title") or [""])[0]
+        doi     = item.get("DOI", "")
+        title   = (item.get("title") or [""])[0]
         authors = "; ".join(
             f"{a.get('given','')} {a.get('family','')}".strip()
             for a in (item.get("author") or [])[:6])
-        parts  = item.get("published", {}).get("date-parts", [[None]])
-        year   = parts[0][0] if parts and parts[0] else None
+        parts   = item.get("published", {}).get("date-parts", [[None]])
+        year    = parts[0][0] if parts and parts[0] else None
         journal = ((item.get("container-title") or [""])[0])
+        licenses = item.get("license") or []
+        oa = any("creativecommons" in (lic.get("URL","")).lower() for lic in licenses)
         out.append({
             "doi": doi, "title": title, "authors": authors,
             "journal": journal, "year": year, "abstract": "",
             "citation_count": item.get("is-referenced-by-count", 0),
+            "open_access": oa,
             "url": item.get("URL") or (f"https://doi.org/{doi}" if doi else ""),
             "source": "CrossRef"})
     return out
@@ -132,6 +141,11 @@ def _pubmed(query, n=15) -> list:
             year = int(doc.get("pubdate", "")[:4])
         except Exception:
             pass
+        # PMC articles are open access
+        pmc = next(
+            (i.get("value","") for i in doc.get("articleids",[])
+             if i.get("idtype") == "pmc"), "")
+        oa = bool(pmc)
         out.append({
             "doi": doi,
             "title": doc.get("title", ""),
@@ -140,7 +154,9 @@ def _pubmed(query, n=15) -> list:
             "journal": doc.get("fulljournalname", ""),
             "year": year, "abstract": "",
             "citation_count": 0,
-            "url": f"https://pubmed.ncbi.nlm.nih.gov/{uid}/",
+            "open_access": oa,
+            "url": (f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmc}/"
+                    if pmc else f"https://pubmed.ncbi.nlm.nih.gov/{uid}/"),
             "source": "PubMed"})
     return out
 
@@ -183,6 +199,9 @@ def _score(p: dict, theme_kws: list) -> float:
     score += 4.0 if yr >= 2024 else (2.0 if yr >= 2022 else (1.0 if yr >= 2020 else 0))
     if len(p.get("abstract") or "") > 100:
         score += 2.0
+    # Open access bonus — prefer papers we can fully analyze
+    if p.get("open_access"):
+        score += 3.0
     return score
 
 def search_literature(theme: dict, n=15) -> list:
@@ -194,7 +213,7 @@ def search_literature(theme: dict, n=15) -> list:
         all_papers += _openalex(q, 15)
         time.sleep(1)
         all_papers += _semantic(q, 15)
-        time.sleep(2)  # Increase delay for Semantic Scholar
+        time.sleep(2)
         all_papers += _crossref(q, 10)
         time.sleep(1)
         all_papers += _pubmed(q, 10)
