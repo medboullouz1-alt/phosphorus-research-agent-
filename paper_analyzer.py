@@ -95,11 +95,16 @@ def _call_gemini(prompt: str, retries=3) -> str:
 
 def _parse_json(raw: str) -> dict:
     raw = raw.strip()
-    raw = re.sub(r"^```(?:json)?\s*", "", raw)
-    raw = re.sub(r"\s*```$", "", raw)
-    match = re.search(r"\{.*\}", raw, re.DOTALL)
-    if match:
-        raw = match.group(0)
+    # Remove markdown code blocks
+    raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
+    raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
+    # Find the first { and the last }
+    start = raw.find('{')
+    end = raw.rfind('}')
+    if start != -1 and end != -1:
+        raw = raw[start:end+1]
+    # Replace common issues
+    raw = raw.replace('\n', ' ').replace('\r', '')
     return json.loads(raw)
 
 
