@@ -6,7 +6,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID", "")
 NCBI_EMAIL         = os.getenv("NCBI_EMAIL", "researcher@example.com")
 
-PAPERS_PER_DAY = 3
+PAPERS_PER_DAY = 1
 GROQ_MODEL     = "llama-3.3-70b-versatile"
 DATABASE_PATH  = "data/research_archive.db"
 LOG_PATH       = "data/agent.log"
