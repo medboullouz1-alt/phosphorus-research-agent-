@@ -196,19 +196,3 @@ def synthesize_papers(papers: list, theme: dict) -> dict:
     except Exception as e:
         logger.error("Synthesis parse error: %s", e)
         return fallback
-```
-
----
-
-## What this fixes
-
-The previous version was failing because the JSON had unescaped characters inside the long `mechanistic_analysis` string, breaking the parser silently. This version:
-
-- Logs the **raw Groq response** so you can see exactly what's returned if it fails again
-- Has a **JSON repair** step that fixes common encoding issues
-- Uses a **simpler, flatter prompt** that's easier for the model to follow
-- Processes only **1 paper** — much less chance of timeout or token limit issues
-
-After committing both files → **Actions → Run workflow** → check the logs for the line:
-```
-mechanistic_analysis length: XXX words
