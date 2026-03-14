@@ -846,3 +846,35 @@
 2026-03-13 09:07:13,694 | INFO     | Telegram sent: True
 2026-03-13 09:07:13,699 | INFO     | CSV exported: data/papers_database.csv
 2026-03-13 09:07:13,700 | INFO     | Done in 187.8 seconds | Papers analyzed: 1
+2026-03-14 07:58:40,034 | INFO     | =======================================================
+2026-03-14 07:58:40,034 | INFO     | PIPELINE START — Saturday, 14 March 2026
+2026-03-14 07:58:40,034 | INFO     | =======================================================
+2026-03-14 07:58:40,034 | INFO     | Database ready.
+2026-03-14 07:58:40,035 | INFO     | Theme: 📊 Long-Term Sustainability of P Management
+2026-03-14 07:58:40,035 | INFO     | Papers per day: 1
+2026-03-14 07:58:40,035 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-14 07:58:42,380 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:58:45,674 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:59:01,347 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-14 07:59:11,355 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-14 07:59:13,171 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:59:16,256 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:59:22,373 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:59:37,817 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-14 07:59:46,925 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-14 07:59:48,698 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 07:59:59,321 | INFO     | Searching: legacy phosphorus
+2026-03-14 08:00:08,324 | INFO     | Searching: P saturation
+2026-03-14 08:00:10,142 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 08:00:13,256 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 08:00:19,339 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-14 08:00:34,773 | INFO     | Searching: long-term phosphorus
+2026-03-14 08:00:46,091 | INFO     | Unique papers found: 334
+2026-03-14 08:00:46,091 | INFO     | Fresh (not yet processed): 299
+2026-03-14 08:00:46,095 | INFO     | Deep analyzing 1/1: Evaluation of Phosphorus Enrichment in Groundwater by Legacy Phosphoru
+2026-03-14 08:00:46,096 | INFO     | Paper ready: Evaluation of Phosphorus Enrichment in Groundwater by Legacy Phosphorus in Orcha
+2026-03-14 08:00:50,098 | INFO     | Generating synthesis across 1 papers...
+2026-03-14 08:00:54,098 | INFO     | Sending Telegram digest...
+2026-03-14 08:01:00,244 | INFO     | Telegram sent: True
+2026-03-14 08:01:00,250 | INFO     | CSV exported: data/papers_database.csv
+2026-03-14 08:01:00,250 | INFO     | Done in 140.2 seconds | Papers analyzed: 1
