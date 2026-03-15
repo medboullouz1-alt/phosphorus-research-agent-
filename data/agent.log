@@ -878,3 +878,37 @@
 2026-03-14 08:01:00,244 | INFO     | Telegram sent: True
 2026-03-14 08:01:00,250 | INFO     | CSV exported: data/papers_database.csv
 2026-03-14 08:01:00,250 | INFO     | Done in 140.2 seconds | Papers analyzed: 1
+2026-03-15 08:03:42,684 | INFO     | =======================================================
+2026-03-15 08:03:42,684 | INFO     | PIPELINE START — Sunday, 15 March 2026
+2026-03-15 08:03:42,684 | INFO     | =======================================================
+2026-03-15 08:03:42,684 | INFO     | Database ready.
+2026-03-15 08:03:42,684 | INFO     | Theme: 🔬 Meta-Analyses on P Management and GHG
+2026-03-15 08:03:42,685 | INFO     | Papers per day: 1
+2026-03-15 08:03:42,685 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-15 08:03:55,451 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-15 08:03:57,226 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:04:10,845 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-15 08:04:12,439 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:04:15,637 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:04:21,917 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:04:39,155 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-15 08:04:49,055 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-15 08:04:50,845 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:04:53,995 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:00,180 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:18,258 | INFO     | Searching: meta-analysis phosphorus GHG
+2026-03-15 08:05:19,996 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=meta-analysis+phosphorus+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:23,146 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=meta-analysis+phosphorus+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:29,408 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=meta-analysis+phosphorus+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:48,248 | INFO     | Searching: systematic review P emissions
+2026-03-15 08:05:50,211 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=systematic+review+P+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:05:53,404 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=systematic+review+P+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-15 08:06:10,995 | INFO     | Unique papers found: 265
+2026-03-15 08:06:10,995 | INFO     | Fresh (not yet processed): 231
+2026-03-15 08:06:10,998 | INFO     | Deep analyzing 1/1: An assessment of the global impact of 21st century land use change on 
+2026-03-15 08:06:10,998 | INFO     | Paper ready: An assessment of the global impact of 21st century land use change on soil erosi
+2026-03-15 08:06:15,001 | INFO     | Generating synthesis across 1 papers...
+2026-03-15 08:06:19,001 | INFO     | Sending Telegram digest...
+2026-03-15 08:06:25,016 | INFO     | Telegram sent: True
+2026-03-15 08:06:25,022 | INFO     | CSV exported: data/papers_database.csv
+2026-03-15 08:06:25,022 | INFO     | Done in 162.3 seconds | Papers analyzed: 1
