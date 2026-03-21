@@ -1119,3 +1119,40 @@
 2026-03-20 09:06:50,670 | INFO     | Telegram sent: True
 2026-03-20 09:06:50,676 | INFO     | CSV exported: data/papers_database.csv
 2026-03-20 09:06:50,676 | INFO     | Done in 181.5 seconds | Papers analyzed: 1
+2026-03-21 07:55:02,912 | INFO     | =======================================================
+2026-03-21 07:55:02,912 | INFO     | PIPELINE START — Saturday, 21 March 2026
+2026-03-21 07:55:02,912 | INFO     | =======================================================
+2026-03-21 07:55:02,912 | INFO     | Database ready.
+2026-03-21 07:55:02,912 | INFO     | Theme: 📈 Crop Yield Response to P Fertilization
+2026-03-21 07:55:02,912 | INFO     | Papers per day: 1
+2026-03-21 07:55:02,913 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-21 07:55:12,853 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-21 07:55:15,129 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:55:18,231 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:55:24,354 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:55:39,818 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-21 07:55:48,763 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-21 07:55:50,412 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:55:53,608 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:55:59,687 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:15,134 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-21 07:56:17,029 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:20,108 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:26,193 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:41,821 | INFO     | Searching: crop yield phosphorus response
+2026-03-21 07:56:43,658 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:46,766 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:56:52,838 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:57:08,466 | INFO     | Searching: P fertilizer rate yield
+2026-03-21 07:57:10,159 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:57:13,234 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:57:19,321 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-21 07:57:35,042 | INFO     | Unique papers found: 244
+2026-03-21 07:57:35,043 | INFO     | Fresh (not yet processed): 216
+2026-03-21 07:57:35,045 | INFO     | Deep analyzing 1/1: Record-setting algal bloom in Lake Erie caused by agricultural and met
+2026-03-21 07:57:35,045 | INFO     | Paper ready: Record-setting algal bloom in Lake Erie caused by agricultural and meteorologica
+2026-03-21 07:57:39,048 | INFO     | Generating synthesis across 1 papers...
+2026-03-21 07:57:43,048 | INFO     | Sending Telegram digest...
+2026-03-21 07:57:49,220 | INFO     | Telegram sent: True
+2026-03-21 07:57:49,226 | INFO     | CSV exported: data/papers_database.csv
+2026-03-21 07:57:49,226 | INFO     | Done in 166.3 seconds | Papers analyzed: 1
