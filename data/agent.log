@@ -1408,3 +1408,41 @@
 2026-03-27 09:44:40,759 | INFO     | Telegram sent: True
 2026-03-27 09:44:40,766 | INFO     | CSV exported: data/papers_database.csv
 2026-03-27 09:44:40,766 | INFO     | Done in 229.1 seconds | Papers analyzed: 1
+2026-03-28 09:01:45,318 | INFO     | =======================================================
+2026-03-28 09:01:45,318 | INFO     | PIPELINE START — Saturday, 28 March 2026
+2026-03-28 09:01:45,318 | INFO     | =======================================================
+2026-03-28 09:01:45,318 | INFO     | Database ready.
+2026-03-28 09:01:45,318 | INFO     | Theme: 📊 Long-Term Sustainability of P Management
+2026-03-28 09:01:45,319 | INFO     | Papers per day: 1
+2026-03-28 09:01:45,319 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-28 09:01:47,483 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:01:50,673 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:01:56,996 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:02:14,292 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-28 09:02:16,019 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:02:19,157 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:02:25,369 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:02:41,724 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-28 09:02:52,543 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-28 09:02:54,309 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:05,864 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-28 09:03:07,506 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:10,651 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:16,797 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:33,195 | INFO     | Searching: legacy phosphorus
+2026-03-28 09:03:43,243 | INFO     | Searching: P saturation
+2026-03-28 09:03:45,143 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:48,280 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:03:54,441 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+saturation&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:04:10,277 | INFO     | Searching: long-term phosphorus
+2026-03-28 09:04:12,044 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=long-term+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:04:15,364 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=long-term+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-28 09:04:29,317 | INFO     | Unique papers found: 316
+2026-03-28 09:04:29,317 | INFO     | Fresh (not yet processed): 288
+2026-03-28 09:04:29,321 | INFO     | Deep analyzing 1/1: Phosphorus activators contribute to legacy phosphorus availability in 
+2026-03-28 09:04:29,321 | INFO     | Paper ready: Phosphorus activators contribute to legacy phosphorus availability in agricultur
+2026-03-28 09:04:33,324 | INFO     | Generating synthesis across 1 papers...
+2026-03-28 09:04:37,324 | INFO     | Sending Telegram digest...
+2026-03-28 09:04:43,371 | INFO     | Telegram sent: True
+2026-03-28 09:04:43,377 | INFO     | CSV exported: data/papers_database.csv
+2026-03-28 09:04:43,377 | INFO     | Done in 178.1 seconds | Papers analyzed: 1
