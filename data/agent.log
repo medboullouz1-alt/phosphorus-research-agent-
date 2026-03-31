@@ -1527,3 +1527,42 @@
 2026-03-30 10:52:20,798 | INFO     | Telegram sent: True
 2026-03-30 10:52:20,804 | INFO     | CSV exported: data/papers_database.csv
 2026-03-30 10:52:20,805 | INFO     | Done in 235.1 seconds | Papers analyzed: 1
+2026-03-31 10:16:52,776 | INFO     | =======================================================
+2026-03-31 10:16:52,776 | INFO     | PIPELINE START — Tuesday, 31 March 2026
+2026-03-31 10:16:52,776 | INFO     | =======================================================
+2026-03-31 10:16:52,777 | INFO     | Database ready.
+2026-03-31 10:16:52,777 | INFO     | Theme: ♻️ Life Cycle Assessment of P Fertilizers
+2026-03-31 10:16:52,777 | INFO     | Papers per day: 1
+2026-03-31 10:16:52,778 | INFO     | Searching: phosphorus management greenhouse gas
+2026-03-31 10:16:54,999 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:16:58,156 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:04,250 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:20,057 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-03-31 10:17:22,019 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:25,123 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:31,255 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:47,032 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-03-31 10:17:48,888 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:17:51,995 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:05,912 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-03-31 10:18:08,295 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:11,398 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:17,492 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:33,386 | INFO     | Searching: phosphate fertilizer climate change
+2026-03-31 10:18:35,166 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:38,261 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:18:44,452 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:19:00,010 | INFO     | Searching: LCA phosphorus fertilizer
+2026-03-31 10:19:01,809 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=LCA+phosphorus+fertilizer&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:19:04,991 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=LCA+phosphorus+fertilizer&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:19:11,083 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=LCA+phosphorus+fertilizer&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-03-31 10:19:26,263 | INFO     | Searching: life cycle assessment P
+2026-03-31 10:19:36,834 | INFO     | Unique papers found: 252
+2026-03-31 10:19:36,834 | INFO     | Fresh (not yet processed): 225
+2026-03-31 10:19:36,837 | INFO     | Deep analyzing 1/1: Life Cycle Assessment of Urine Diversion and Conversion to Fertilizer 
+2026-03-31 10:19:36,837 | INFO     | Paper ready: Life Cycle Assessment of Urine Diversion and Conversion to Fertilizer Products a
+2026-03-31 10:19:40,839 | INFO     | Generating synthesis across 1 papers...
+2026-03-31 10:19:44,839 | INFO     | Sending Telegram digest...
+2026-03-31 10:19:50,559 | INFO     | Telegram sent: True
+2026-03-31 10:19:50,566 | INFO     | CSV exported: data/papers_database.csv
+2026-03-31 10:19:50,566 | INFO     | Done in 177.8 seconds | Papers analyzed: 1
