@@ -1735,3 +1735,43 @@
 2026-04-04 09:06:29,327 | INFO     | Telegram sent: True
 2026-04-04 09:06:29,334 | INFO     | CSV exported: data/papers_database.csv
 2026-04-04 09:06:29,334 | INFO     | Done in 189.7 seconds | Papers analyzed: 1
+2026-04-05 09:07:47,326 | INFO     | =======================================================
+2026-04-05 09:07:47,326 | INFO     | PIPELINE START — Sunday, 05 April 2026
+2026-04-05 09:07:47,326 | INFO     | =======================================================
+2026-04-05 09:07:47,327 | INFO     | Database ready.
+2026-04-05 09:07:47,327 | INFO     | Theme: 🌰 P and Soil Carbon Interactions
+2026-04-05 09:07:47,327 | INFO     | Papers per day: 1
+2026-04-05 09:07:47,327 | INFO     | Searching: phosphorus management greenhouse gas
+2026-04-05 09:07:49,742 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:00,912 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-04-05 09:08:03,216 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:13,537 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-04-05 09:08:16,019 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:19,172 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:25,296 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:41,725 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-04-05 09:08:43,916 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:47,193 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:08:53,330 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:09,355 | INFO     | Searching: phosphate fertilizer climate change
+2026-04-05 09:09:18,853 | INFO     | Searching: phosphorus soil carbon
+2026-04-05 09:09:20,667 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:23,822 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:30,110 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:45,767 | INFO     | Searching: P organic matter
+2026-04-05 09:09:47,978 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:51,087 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:09:57,214 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:10:12,730 | INFO     | Searching: P C stoichiometry
+2026-04-05 09:10:14,645 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:10:17,803 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:10:23,912 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-05 09:10:39,256 | INFO     | Unique papers found: 277
+2026-04-05 09:10:39,256 | INFO     | Fresh (not yet processed): 239
+2026-04-05 09:10:39,259 | INFO     | Deep analyzing 1/1: The Effects of Bio-Fertilizer by Arbuscular Mycorrhizal Fungi and Phos
+2026-04-05 09:10:39,259 | INFO     | Paper ready: The Effects of Bio-Fertilizer by Arbuscular Mycorrhizal Fungi and Phosphate Solu
+2026-04-05 09:10:43,262 | INFO     | Generating synthesis across 1 papers...
+2026-04-05 09:10:47,263 | INFO     | Sending Telegram digest...
+2026-04-05 09:10:53,371 | INFO     | Telegram sent: True
+2026-04-05 09:10:53,379 | INFO     | CSV exported: data/papers_database.csv
+2026-04-05 09:10:53,379 | INFO     | Done in 186.1 seconds | Papers analyzed: 1
