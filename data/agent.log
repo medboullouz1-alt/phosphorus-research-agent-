@@ -1775,3 +1775,42 @@
 2026-04-05 09:10:53,371 | INFO     | Telegram sent: True
 2026-04-05 09:10:53,379 | INFO     | CSV exported: data/papers_database.csv
 2026-04-05 09:10:53,379 | INFO     | Done in 186.1 seconds | Papers analyzed: 1
+2026-04-06 10:40:17,111 | INFO     | =======================================================
+2026-04-06 10:40:17,111 | INFO     | PIPELINE START — Monday, 06 April 2026
+2026-04-06 10:40:17,111 | INFO     | =======================================================
+2026-04-06 10:40:17,112 | INFO     | Database ready.
+2026-04-06 10:40:17,112 | INFO     | Theme: 📜 Environmental Policy and P Regulation
+2026-04-06 10:40:17,112 | INFO     | Papers per day: 1
+2026-04-06 10:40:17,113 | INFO     | Searching: phosphorus management greenhouse gas
+2026-04-06 10:40:18,987 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:40:35,361 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-04-06 10:40:37,015 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:40:40,247 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:40:46,349 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:03,437 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-04-06 10:41:05,055 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:15,143 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-04-06 10:41:16,903 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:20,036 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:26,277 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:41,774 | INFO     | Searching: phosphate fertilizer climate change
+2026-04-06 10:41:43,428 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:53,249 | INFO     | Searching: phosphorus water quality
+2026-04-06 10:41:54,781 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+water+quality&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:41:57,875 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+water+quality&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:04,083 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+water+quality&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:19,205 | INFO     | Searching: P regulation agriculture
+2026-04-06 10:42:20,919 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+regulation+agriculture&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:31,670 | INFO     | Searching: phosphorus index
+2026-04-06 10:42:33,288 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+index&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:36,544 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+index&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:42,655 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+index&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-06 10:42:57,660 | INFO     | Unique papers found: 303
+2026-04-06 10:42:57,660 | INFO     | Fresh (not yet processed): 269
+2026-04-06 10:42:57,663 | INFO     | Deep analyzing 1/1: High-mobility transport anisotropy and linear dichroism in few-layer b
+2026-04-06 10:42:57,664 | INFO     | Paper ready: High-mobility transport anisotropy and linear dichroism in few-layer black phosp
+2026-04-06 10:43:01,666 | INFO     | Generating synthesis across 1 papers...
+2026-04-06 10:43:05,667 | INFO     | Sending Telegram digest...
+2026-04-06 10:43:11,446 | INFO     | Telegram sent: True
+2026-04-06 10:43:11,453 | INFO     | CSV exported: data/papers_database.csv
+2026-04-06 10:43:11,453 | INFO     | Done in 174.3 seconds | Papers analyzed: 1
