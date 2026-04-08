@@ -1854,3 +1854,41 @@
 2026-04-07 10:39:37,401 | INFO     | Telegram sent: True
 2026-04-07 10:39:37,408 | INFO     | CSV exported: data/papers_database.csv
 2026-04-07 10:39:37,408 | INFO     | Done in 189.2 seconds | Papers analyzed: 1
+2026-04-08 10:40:38,927 | INFO     | =======================================================
+2026-04-08 10:40:38,928 | INFO     | PIPELINE START — Wednesday, 08 April 2026
+2026-04-08 10:40:38,928 | INFO     | =======================================================
+2026-04-08 10:40:38,928 | INFO     | Database ready.
+2026-04-08 10:40:38,928 | INFO     | Theme: 🌱 Phosphorus Use Efficiency (PUE)
+2026-04-08 10:40:38,928 | INFO     | Papers per day: 1
+2026-04-08 10:40:38,929 | INFO     | Searching: phosphorus management greenhouse gas
+2026-04-08 10:40:41,354 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:40:44,551 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:40:50,836 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:08,173 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-04-08 10:41:10,259 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:13,473 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:19,751 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:37,090 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-04-08 10:41:39,276 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:50,763 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-04-08 10:41:52,587 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:41:55,871 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:42:02,149 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:42:19,629 | INFO     | Searching: phosphate fertilizer climate change
+2026-04-08 10:42:29,070 | INFO     | Searching: phosphorus use efficiency
+2026-04-08 10:42:30,773 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+use+efficiency&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:42:33,982 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+use+efficiency&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:42:47,764 | INFO     | Searching: PUE
+2026-04-08 10:42:56,901 | INFO     | Searching: P uptake
+2026-04-08 10:42:58,773 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+uptake&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:43:02,046 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+uptake&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:43:08,391 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+uptake&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-08 10:43:25,294 | INFO     | Unique papers found: 312
+2026-04-08 10:43:25,294 | INFO     | Fresh (not yet processed): 280
+2026-04-08 10:43:25,298 | INFO     | Deep analyzing 1/1: Phosphorus Supply Under Micro-Nano Bubble Water Drip Irrigation Enhanc
+2026-04-08 10:43:25,298 | INFO     | Paper ready: Phosphorus Supply Under Micro-Nano Bubble Water Drip Irrigation Enhances Maize Y
+2026-04-08 10:43:29,301 | INFO     | Generating synthesis across 1 papers...
+2026-04-08 10:43:33,301 | INFO     | Sending Telegram digest...
+2026-04-08 10:43:39,234 | INFO     | Telegram sent: True
+2026-04-08 10:43:39,242 | INFO     | CSV exported: data/papers_database.csv
+2026-04-08 10:43:39,242 | INFO     | Done in 180.3 seconds | Papers analyzed: 1
