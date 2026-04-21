@@ -2410,3 +2410,42 @@
 2026-04-20 09:07:08,146 | INFO     | Telegram sent: True
 2026-04-20 09:07:08,155 | INFO     | CSV exported: data/papers_database.csv
 2026-04-20 09:07:08,155 | INFO     | Done in 231.0 seconds | Papers analyzed: 1
+2026-04-21 08:26:07,769 | INFO     | =======================================================
+2026-04-21 08:26:07,769 | INFO     | PIPELINE START — Tuesday, 21 April 2026
+2026-04-21 08:26:07,769 | INFO     | =======================================================
+2026-04-21 08:26:07,769 | INFO     | Database ready.
+2026-04-21 08:26:07,769 | INFO     | Theme: 🧩 Integrated Nutrient Management
+2026-04-21 08:26:07,770 | INFO     | Papers per day: 1
+2026-04-21 08:26:07,770 | INFO     | Searching: phosphorus management greenhouse gas
+2026-04-21 08:26:18,692 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-04-21 08:26:20,973 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:26:24,050 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:26:30,112 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:26:46,008 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-04-21 08:26:47,649 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:26:50,739 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:26:56,811 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:27:14,216 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-04-21 08:27:25,357 | INFO     | Searching: phosphate fertilizer climate change
+2026-04-21 08:27:26,990 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:27:30,069 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:27:36,156 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:27:54,202 | INFO     | Searching: integrated nutrient management phosphorus
+2026-04-21 08:27:55,950 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:10,128 | INFO     | Searching: INM GHG
+2026-04-21 08:28:11,726 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:14,864 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:20,941 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:40,692 | INFO     | Searching: combined organic mineral P
+2026-04-21 08:28:42,426 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:45,486 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:28:51,575 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-04-21 08:29:10,430 | INFO     | Unique papers found: 283
+2026-04-21 08:29:10,431 | INFO     | Fresh (not yet processed): 246
+2026-04-21 08:29:10,434 | INFO     | Deep analyzing 1/1: Improvement of soil health and nutrient transformations under balanced
+2026-04-21 08:29:10,434 | INFO     | Paper ready: Improvement of soil health and nutrient transformations under balanced fertiliza
+2026-04-21 08:29:14,652 | INFO     | Generating synthesis across 1 papers...
+2026-04-21 08:29:18,653 | INFO     | Sending Telegram digest...
+2026-04-21 08:29:24,822 | INFO     | Telegram sent: True
+2026-04-21 08:29:24,868 | INFO     | CSV exported: data/papers_database.csv
+2026-04-21 08:29:24,868 | INFO     | Done in 197.1 seconds | Papers analyzed: 1
