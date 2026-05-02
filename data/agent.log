@@ -2875,3 +2875,41 @@
 2026-05-01 08:56:52,314 | INFO     | Telegram sent: True
 2026-05-01 08:56:52,323 | INFO     | CSV exported: data/papers_database.csv
 2026-05-01 08:56:52,323 | INFO     | Done in 229.4 seconds | Papers analyzed: 1
+2026-05-02 08:16:43,788 | INFO     | =======================================================
+2026-05-02 08:16:43,788 | INFO     | PIPELINE START — Saturday, 02 May 2026
+2026-05-02 08:16:43,788 | INFO     | =======================================================
+2026-05-02 08:16:43,789 | INFO     | Database ready.
+2026-05-02 08:16:43,789 | INFO     | Theme: 📈 Crop Yield Response to P Fertilization
+2026-05-02 08:16:43,789 | INFO     | Papers per day: 1
+2026-05-02 08:16:43,790 | INFO     | Searching: phosphorus management greenhouse gas
+2026-05-02 08:16:45,817 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:16:48,984 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:02,275 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-05-02 08:17:03,848 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:14,214 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-05-02 08:17:15,864 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:19,018 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:32,463 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-05-02 08:17:34,148 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:37,448 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:43,611 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:17:59,227 | INFO     | Searching: phosphate fertilizer climate change
+2026-05-02 08:18:00,723 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:03,820 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:09,920 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:25,266 | INFO     | Searching: crop yield phosphorus response
+2026-05-02 08:18:26,948 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:30,045 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:43,336 | INFO     | Searching: P fertilizer rate yield
+2026-05-02 08:18:44,890 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:47,997 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:18:54,100 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-02 08:19:09,387 | INFO     | Unique papers found: 269
+2026-05-02 08:19:09,387 | INFO     | Fresh (not yet processed): 225
+2026-05-02 08:19:09,390 | INFO     | Deep analyzing 1/1: Structural absorption by barbule microstructures of super black bird o
+2026-05-02 08:19:09,390 | INFO     | Paper ready: Structural absorption by barbule microstructures of super black bird of paradise
+2026-05-02 08:19:13,392 | INFO     | Generating synthesis across 1 papers...
+2026-05-02 08:19:17,392 | INFO     | Sending Telegram digest...
+2026-05-02 08:19:23,095 | INFO     | Telegram sent: True
+2026-05-02 08:19:23,104 | INFO     | CSV exported: data/papers_database.csv
+2026-05-02 08:19:23,104 | INFO     | Done in 159.3 seconds | Papers analyzed: 1
