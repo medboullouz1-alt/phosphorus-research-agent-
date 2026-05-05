@@ -2994,3 +2994,47 @@
 2026-05-04 09:14:29,797 | INFO     | Telegram sent: True
 2026-05-04 09:14:29,805 | INFO     | CSV exported: data/papers_database.csv
 2026-05-04 09:14:29,805 | INFO     | Done in 224.1 seconds | Papers analyzed: 1
+2026-05-05 09:03:13,709 | INFO     | =======================================================
+2026-05-05 09:03:13,709 | INFO     | PIPELINE START — Tuesday, 05 May 2026
+2026-05-05 09:03:13,709 | INFO     | =======================================================
+2026-05-05 09:03:13,710 | INFO     | Database ready.
+2026-05-05 09:03:13,710 | INFO     | Theme: 🧩 Integrated Nutrient Management
+2026-05-05 09:03:13,710 | INFO     | Papers per day: 1
+2026-05-05 09:03:13,711 | INFO     | Searching: phosphorus management greenhouse gas
+2026-05-05 09:03:24,122 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-05-05 09:03:25,904 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:03:28,973 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:03:35,062 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:03:51,290 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-05-05 09:03:53,150 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:03:56,272 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:02,358 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:19,021 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-05-05 09:04:21,075 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:24,162 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:30,232 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:47,007 | INFO     | Searching: phosphate fertilizer climate change
+2026-05-05 09:04:49,423 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:52,509 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:04:58,577 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:15,092 | INFO     | Searching: integrated nutrient management phosphorus
+2026-05-05 09:05:16,974 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:20,067 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:26,176 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:45,496 | INFO     | Searching: INM GHG
+2026-05-05 09:05:47,289 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:50,358 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:05:56,469 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:06:11,685 | INFO     | Searching: combined organic mineral P
+2026-05-05 09:06:13,258 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:06:16,335 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:06:22,419 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-05 09:06:38,719 | INFO     | Unique papers found: 257
+2026-05-05 09:06:38,720 | INFO     | Fresh (not yet processed): 225
+2026-05-05 09:06:38,723 | INFO     | Deep analyzing 1/1: Optimized Fertilizer–Water Management Improves Carrot Quality and Soil
+2026-05-05 09:06:38,724 | INFO     | Paper ready: Optimized Fertilizer–Water Management Improves Carrot Quality and Soil Nutrition
+2026-05-05 09:06:42,726 | INFO     | Generating synthesis across 1 papers...
+2026-05-05 09:06:46,726 | INFO     | Sending Telegram digest...
+2026-05-05 09:06:53,026 | INFO     | Telegram sent: True
+2026-05-05 09:06:53,035 | INFO     | CSV exported: data/papers_database.csv
+2026-05-05 09:06:53,035 | INFO     | Done in 219.3 seconds | Papers analyzed: 1
