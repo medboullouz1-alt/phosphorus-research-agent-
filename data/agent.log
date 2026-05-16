@@ -3474,3 +3474,40 @@
 2026-05-15 09:41:24,686 | INFO     | Telegram sent: True
 2026-05-15 09:41:24,695 | INFO     | CSV exported: data/papers_database.csv
 2026-05-15 09:41:24,695 | INFO     | Done in 242.7 seconds | Papers analyzed: 1
+2026-05-16 08:30:07,093 | INFO     | =======================================================
+2026-05-16 08:30:07,093 | INFO     | PIPELINE START — Saturday, 16 May 2026
+2026-05-16 08:30:07,093 | INFO     | =======================================================
+2026-05-16 08:30:07,094 | INFO     | Database ready.
+2026-05-16 08:30:07,094 | INFO     | Theme: 📈 Crop Yield Response to P Fertilization
+2026-05-16 08:30:07,094 | INFO     | Papers per day: 1
+2026-05-16 08:30:07,095 | INFO     | Searching: phosphorus management greenhouse gas
+2026-05-16 08:30:09,359 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:30:12,617 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:30:18,921 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:30:35,571 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-05-16 08:30:45,468 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-05-16 08:30:47,334 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:30:50,555 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:30:56,768 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:12,565 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-05-16 08:31:14,282 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:26,494 | INFO     | Searching: phosphate fertilizer climate change
+2026-05-16 08:31:28,279 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:31,423 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:37,637 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:54,145 | INFO     | Searching: crop yield phosphorus response
+2026-05-16 08:31:55,913 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:31:59,162 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:32:05,375 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=crop+yield+phosphorus+response&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:32:21,776 | INFO     | Searching: P fertilizer rate yield
+2026-05-16 08:32:23,682 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:32:26,911 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-16 08:32:41,308 | INFO     | Unique papers found: 259
+2026-05-16 08:32:41,308 | INFO     | Fresh (not yet processed): 218
+2026-05-16 08:32:41,312 | INFO     | Deep analyzing 1/1: Nitrogen fertilizer rate increases plant uptake and soil availability 
+2026-05-16 08:32:41,312 | INFO     | Paper ready: Nitrogen fertilizer rate increases plant uptake and soil availability of essenti
+2026-05-16 08:32:45,314 | INFO     | Generating synthesis across 1 papers...
+2026-05-16 08:32:49,315 | INFO     | Sending Telegram digest...
+2026-05-16 08:32:55,374 | INFO     | Telegram sent: True
+2026-05-16 08:32:55,382 | INFO     | CSV exported: data/papers_database.csv
+2026-05-16 08:32:55,383 | INFO     | Done in 168.3 seconds | Papers analyzed: 1
