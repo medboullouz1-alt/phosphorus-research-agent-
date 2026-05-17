@@ -3511,3 +3511,60 @@
 2026-05-16 08:32:55,374 | INFO     | Telegram sent: True
 2026-05-16 08:32:55,382 | INFO     | CSV exported: data/papers_database.csv
 2026-05-16 08:32:55,383 | INFO     | Done in 168.3 seconds | Papers analyzed: 1
+2026-05-17 08:56:53,870 | INFO     | =======================================================
+2026-05-17 08:56:53,870 | INFO     | PIPELINE START — Sunday, 17 May 2026
+2026-05-17 08:56:53,870 | INFO     | =======================================================
+2026-05-17 08:56:53,871 | INFO     | Database ready.
+2026-05-17 08:56:53,871 | INFO     | Theme: 🌰 P and Soil Carbon Interactions
+2026-05-17 08:56:53,871 | INFO     | Papers per day: 1
+2026-05-17 08:56:53,871 | INFO     | Searching: phosphorus management greenhouse gas
+2026-05-17 08:57:04,145 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:57:14,474 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-05-17 08:57:34,506 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 08:57:50,082 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:57:53,434 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:57:59,735 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:58:14,872 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-05-17 08:58:34,920 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 08:58:57,962 | WARNING  | GET attempt 2 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 08:59:24,010 | WARNING  | GET attempt 3 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 08:59:34,110 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:59:37,209 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:59:43,382 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 08:59:58,843 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-05-17 09:00:18,892 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:00:41,943 | WARNING  | GET attempt 2 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:01:07,993 | WARNING  | GET attempt 3 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:01:18,336 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:01:21,528 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:01:27,895 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:01:43,076 | INFO     | Searching: phosphate fertilizer climate change
+2026-05-17 09:02:03,124 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:02:26,224 | WARNING  | GET attempt 2 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:02:52,272 | WARNING  | GET attempt 3 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:03:02,404 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:03:05,517 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:03:11,612 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:03:26,973 | INFO     | Searching: phosphorus soil carbon
+2026-05-17 09:03:47,002 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:04:10,042 | WARNING  | GET attempt 2 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:04:36,090 | WARNING  | GET attempt 3 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:04:53,360 | INFO     | Searching: P organic matter
+2026-05-17 09:05:13,413 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:05:33,914 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:05:37,013 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:05:43,112 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+organic+matter&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:05:59,096 | INFO     | Searching: P C stoichiometry
+2026-05-17 09:06:19,126 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-05-17 09:06:24,869 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:06:28,066 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:06:34,224 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+C+stoichiometry&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-05-17 09:06:49,518 | INFO     | Unique papers found: 226
+2026-05-17 09:06:49,518 | INFO     | Fresh (not yet processed): 203
+2026-05-17 09:06:49,520 | INFO     | Deep analyzing 1/1: The Fusiform Face Area: A Module in Human Extrastriate Cortex Speciali
+2026-05-17 09:06:49,520 | INFO     | Paper ready: The Fusiform Face Area: A Module in Human Extrastriate Cortex Specialized for Fa
+2026-05-17 09:06:53,522 | INFO     | Generating synthesis across 1 papers...
+2026-05-17 09:06:57,523 | INFO     | Sending Telegram digest...
+2026-05-17 09:07:03,426 | INFO     | Telegram sent: True
+2026-05-17 09:07:03,434 | INFO     | CSV exported: data/papers_database.csv
+2026-05-17 09:07:03,435 | INFO     | Done in 609.6 seconds | Papers analyzed: 1
