@@ -4265,3 +4265,41 @@
 2026-06-03 11:52:27,629 | INFO     | Telegram sent: True
 2026-06-03 11:52:27,641 | INFO     | CSV exported: data/papers_database.csv
 2026-06-03 11:52:27,641 | INFO     | Done in 210.3 seconds | Papers analyzed: 1
+2026-06-04 10:31:55,806 | INFO     | =======================================================
+2026-06-04 10:31:55,806 | INFO     | PIPELINE START — Thursday, 04 June 2026
+2026-06-04 10:31:55,806 | INFO     | =======================================================
+2026-06-04 10:31:55,807 | INFO     | Database ready.
+2026-06-04 10:31:55,807 | INFO     | Theme: 🌫️ P-Induced N2O Mitigation
+2026-06-04 10:31:55,807 | INFO     | Papers per day: 1
+2026-06-04 10:31:55,808 | INFO     | Searching: phosphorus management greenhouse gas
+2026-06-04 10:31:57,983 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:01,272 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:07,441 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:24,561 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-06-04 10:32:26,586 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:29,836 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:36,069 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:53,510 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-06-04 10:32:55,226 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:32:58,497 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:33:04,709 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:33:22,389 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-06-04 10:33:33,026 | INFO     | Searching: phosphate fertilizer climate change
+2026-06-04 10:33:35,153 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:33:38,285 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:33:44,542 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:34:01,367 | INFO     | Searching: phosphorus nitrous oxide
+2026-06-04 10:34:12,479 | INFO     | Searching: P N2O
+2026-06-04 10:34:14,339 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:34:17,518 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:34:23,729 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-04 10:34:40,687 | INFO     | Searching: denitrification phosphorus
+2026-06-04 10:34:52,165 | INFO     | Unique papers found: 277
+2026-06-04 10:34:52,166 | INFO     | Fresh (not yet processed): 241
+2026-06-04 10:34:52,169 | INFO     | Deep analyzing 1/1: Effect of contrasting phosphorus levels on nitrous oxide and carbon di
+2026-06-04 10:34:52,169 | INFO     | Paper ready: Effect of contrasting phosphorus levels on nitrous oxide and carbon dioxide emis
+2026-06-04 10:34:56,171 | INFO     | Generating synthesis across 1 papers...
+2026-06-04 10:35:00,171 | INFO     | Sending Telegram digest...
+2026-06-04 10:35:06,192 | INFO     | Telegram sent: True
+2026-06-04 10:35:06,204 | INFO     | CSV exported: data/papers_database.csv
+2026-06-04 10:35:06,204 | INFO     | Done in 190.4 seconds | Papers analyzed: 1
