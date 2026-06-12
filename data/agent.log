@@ -4591,3 +4591,47 @@
 2026-06-11 11:19:51,310 | INFO     | Telegram sent: True
 2026-06-11 11:19:51,322 | INFO     | CSV exported: data/papers_database.csv
 2026-06-11 11:19:51,322 | INFO     | Done in 211.7 seconds | Papers analyzed: 1
+2026-06-12 10:55:25,590 | INFO     | =======================================================
+2026-06-12 10:55:25,590 | INFO     | PIPELINE START — Friday, 12 June 2026
+2026-06-12 10:55:25,590 | INFO     | =======================================================
+2026-06-12 10:55:25,591 | INFO     | Database ready.
+2026-06-12 10:55:25,591 | INFO     | Theme: 🌾 Biochar and Organic Amendments for P
+2026-06-12 10:55:25,591 | INFO     | Papers per day: 1
+2026-06-12 10:55:25,592 | INFO     | Searching: phosphorus management greenhouse gas
+2026-06-12 10:55:27,534 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:55:30,687 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:55:37,001 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:55:54,097 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-06-12 10:55:55,864 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:55:59,181 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:56:05,328 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:56:23,078 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-06-12 10:56:43,135 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-06-12 10:56:47,826 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:56:51,124 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:56:57,349 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:57:14,170 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-06-12 10:57:15,660 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:57:18,907 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:57:25,198 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:57:41,906 | INFO     | Searching: phosphate fertilizer climate change
+2026-06-12 10:58:01,946 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-06-12 10:58:24,986 | WARNING  | GET attempt 2 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-06-12 10:58:32,515 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:58:35,751 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:58:50,352 | INFO     | Searching: biochar phosphorus
+2026-06-12 10:58:56,944 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=biochar+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:59:00,266 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=biochar+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:59:06,576 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=biochar+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-06-12 10:59:23,119 | INFO     | Searching: compost P availability
+2026-06-12 10:59:43,174 | WARNING  | GET attempt 1 failed: HTTPSConnectionPool(host='api.openalex.org', port=443): Read timed out. (read timeout=20)
+2026-06-12 10:59:57,430 | INFO     | Searching: organic amendment GHG
+2026-06-12 11:00:09,948 | INFO     | Unique papers found: 286
+2026-06-12 11:00:09,948 | INFO     | Fresh (not yet processed): 271
+2026-06-12 11:00:09,952 | INFO     | Deep analyzing 1/1: Evaluation of management practices on agricultural nonpoint source pol
+2026-06-12 11:00:09,952 | INFO     | Paper ready: Evaluation of management practices on agricultural nonpoint source pollution dis
+2026-06-12 11:00:13,954 | INFO     | Generating synthesis across 1 papers...
+2026-06-12 11:00:17,954 | INFO     | Sending Telegram digest...
+2026-06-12 11:00:23,997 | INFO     | Telegram sent: True
+2026-06-12 11:00:24,010 | INFO     | CSV exported: data/papers_database.csv
+2026-06-12 11:00:24,010 | INFO     | Done in 298.4 seconds | Papers analyzed: 1
