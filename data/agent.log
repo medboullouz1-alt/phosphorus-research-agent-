@@ -6472,3 +6472,42 @@
 2026-07-23 09:20:26,289 | INFO     | Telegram sent: True
 2026-07-23 09:20:26,302 | INFO     | CSV exported: data/papers_database.csv
 2026-07-23 09:20:26,302 | INFO     | Done in 217.3 seconds | Papers analyzed: 1
+2026-07-24 09:13:22,861 | INFO     | =======================================================
+2026-07-24 09:13:22,862 | INFO     | PIPELINE START — Friday, 24 July 2026
+2026-07-24 09:13:22,862 | INFO     | =======================================================
+2026-07-24 09:13:22,862 | INFO     | Database ready.
+2026-07-24 09:13:22,862 | INFO     | Theme: 🌾 Biochar and Organic Amendments for P
+2026-07-24 09:13:22,862 | INFO     | Papers per day: 1
+2026-07-24 09:13:22,863 | INFO     | Searching: phosphorus management greenhouse gas
+2026-07-24 09:13:24,610 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:13:27,756 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:13:33,922 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:13:49,516 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-07-24 09:13:51,095 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:13:54,311 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:00,476 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:15,739 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-07-24 09:14:17,345 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:20,475 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:26,710 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:42,172 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-07-24 09:14:44,031 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:14:54,500 | INFO     | Searching: phosphate fertilizer climate change
+2026-07-24 09:14:56,002 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:15:07,647 | INFO     | Searching: biochar phosphorus
+2026-07-24 09:15:16,606 | INFO     | Searching: compost P availability
+2026-07-24 09:15:18,089 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=compost+P+availability&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:15:21,217 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=compost+P+availability&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:15:27,394 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=compost+P+availability&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:15:43,459 | INFO     | Searching: organic amendment GHG
+2026-07-24 09:15:45,007 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=organic+amendment+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:15:48,138 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=organic+amendment+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-07-24 09:16:01,550 | INFO     | Unique papers found: 298
+2026-07-24 09:16:01,550 | INFO     | Fresh (not yet processed): 288
+2026-07-24 09:16:01,554 | INFO     | Deep analyzing 1/1: Enhancing phosphorus availability and dynamics in acidic soils through
+2026-07-24 09:16:01,554 | INFO     | Paper ready: Enhancing phosphorus availability and dynamics in acidic soils through Rice stra
+2026-07-24 09:16:05,556 | INFO     | Generating synthesis across 1 papers...
+2026-07-24 09:16:09,557 | INFO     | Sending Telegram digest...
+2026-07-24 09:16:15,406 | INFO     | Telegram sent: True
+2026-07-24 09:16:15,420 | INFO     | CSV exported: data/papers_database.csv
+2026-07-24 09:16:15,420 | INFO     | Done in 172.6 seconds | Papers analyzed: 1
