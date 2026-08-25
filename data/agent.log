@@ -7875,3 +7875,50 @@
 2026-08-24 07:51:24,406 | INFO     | Telegram sent: True
 2026-08-24 07:51:24,418 | INFO     | CSV exported: data/papers_database.csv
 2026-08-24 07:51:24,418 | INFO     | Done in 185.4 seconds | Papers analyzed: 1
+2026-08-25 07:34:32,408 | INFO     | =======================================================
+2026-08-25 07:34:32,408 | INFO     | PIPELINE START — Tuesday, 25 August 2026
+2026-08-25 07:34:32,408 | INFO     | =======================================================
+2026-08-25 07:34:32,410 | INFO     | Database ready.
+2026-08-25 07:34:32,410 | INFO     | Theme: 🧩 Integrated Nutrient Management
+2026-08-25 07:34:32,410 | INFO     | Papers per day: 1
+2026-08-25 07:34:32,411 | INFO     | Searching: phosphorus management greenhouse gas
+2026-08-25 07:34:34,547 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:34:37,703 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:34:43,887 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:34:59,389 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-08-25 07:35:01,011 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:04,278 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:10,563 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:25,826 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-08-25 07:35:27,622 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:30,759 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:37,021 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:52,387 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-08-25 07:35:54,012 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:35:57,200 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:03,614 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:18,930 | INFO     | Searching: phosphate fertilizer climate change
+2026-08-25 07:36:20,809 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:24,051 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:30,212 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:45,575 | INFO     | Searching: integrated nutrient management phosphorus
+2026-08-25 07:36:47,353 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:50,559 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:36:57,009 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=integrated+nutrient+management+phosphorus&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:12,379 | INFO     | Searching: INM GHG
+2026-08-25 07:37:13,987 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:17,119 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:23,376 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=INM+GHG&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:38,823 | INFO     | Searching: combined organic mineral P
+2026-08-25 07:37:40,623 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:43,769 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:37:49,935 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=combined+organic+mineral+P&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-08-25 07:38:05,391 | INFO     | Unique papers found: 244
+2026-08-25 07:38:05,391 | INFO     | Fresh (not yet processed): 240
+2026-08-25 07:38:05,394 | INFO     | Deep analyzing 1/1: Greenhouse Gases in Intensive Agriculture: Contributions of Individual
+2026-08-25 07:38:05,394 | INFO     | Paper ready: Greenhouse Gases in Intensive Agriculture: Contributions of Individual Gases to 
+2026-08-25 07:38:09,396 | INFO     | Generating synthesis across 1 papers...
+2026-08-25 07:38:13,396 | INFO     | Sending Telegram digest...
+2026-08-25 07:38:19,334 | INFO     | Telegram sent: True
+2026-08-25 07:38:19,346 | INFO     | CSV exported: data/papers_database.csv
+2026-08-25 07:38:19,346 | INFO     | Done in 226.9 seconds | Papers analyzed: 1
