@@ -8872,3 +8872,45 @@
 2026-09-15 12:23:21,178 | INFO     | Telegram sent: True
 2026-09-15 12:23:21,191 | INFO     | CSV exported: data/papers_database.csv
 2026-09-15 12:23:21,191 | INFO     | Done in 208.9 seconds | Papers analyzed: 1
+2026-09-16 12:17:11,584 | INFO     | =======================================================
+2026-09-16 12:17:11,584 | INFO     | PIPELINE START — Wednesday, 16 September 2026
+2026-09-16 12:17:11,584 | INFO     | =======================================================
+2026-09-16 12:17:11,585 | INFO     | Database ready.
+2026-09-16 12:17:11,585 | INFO     | Theme: 🔄 Circular Phosphorus Economy
+2026-09-16 12:17:11,585 | INFO     | Papers per day: 1
+2026-09-16 12:17:11,586 | INFO     | Searching: phosphorus management greenhouse gas
+2026-09-16 12:17:11,699 | WARNING  | GET attempt 1 failed: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=phosphorus+management+greenhouse+gas&filter=is_paratext%3Afalse%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=15&select=id%2Cdoi%2Ctitle%2Cauthorships%2Cpublication_year%2Cprimary_location%2Cabstract_inverted_index%2Ccited_by_count%2Copen_access
+2026-09-16 12:17:16,498 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:17:19,582 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:17:25,918 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:17:43,118 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-09-16 12:17:45,026 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:17:48,253 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:17:54,332 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:18:11,300 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-09-16 12:18:11,393 | WARNING  | GET attempt 1 failed: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=P+fertilizer+nitrous+oxide+N2O&filter=is_paratext%3Afalse%2Ctype%3Aarticle&sort=cited_by_count%3Adesc&per_page=15&select=id%2Cdoi%2Ctitle%2Cauthorships%2Cpublication_year%2Cprimary_location%2Cabstract_inverted_index%2Ccited_by_count%2Copen_access
+2026-09-16 12:18:16,373 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:18:28,183 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-09-16 12:18:30,324 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:18:33,391 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:18:39,480 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:18:56,383 | INFO     | Searching: phosphate fertilizer climate change
+2026-09-16 12:18:58,163 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:01,246 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:07,322 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:23,881 | INFO     | Searching: phosphorus recovery
+2026-09-16 12:19:25,469 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+recovery&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:36,866 | INFO     | Searching: struvite
+2026-09-16 12:19:47,446 | INFO     | Searching: P recycling
+2026-09-16 12:19:49,528 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+recycling&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:52,593 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+recycling&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:19:58,677 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+recycling&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-09-16 12:20:16,323 | INFO     | Unique papers found: 294
+2026-09-16 12:20:16,324 | INFO     | Fresh (not yet processed): 291
+2026-09-16 12:20:16,329 | INFO     | Deep analyzing 1/1: Intensive Microalgal Cultivation and Tertiary Phosphorus Recovery from
+2026-09-16 12:20:16,329 | INFO     | Paper ready: Intensive Microalgal Cultivation and Tertiary Phosphorus Recovery from Wastewate
+2026-09-16 12:20:20,331 | INFO     | Generating synthesis across 1 papers...
+2026-09-16 12:20:24,331 | INFO     | Sending Telegram digest...
+2026-09-16 12:20:30,502 | INFO     | Telegram sent: True
+2026-09-16 12:20:30,515 | INFO     | CSV exported: data/papers_database.csv
+2026-09-16 12:20:30,515 | INFO     | Done in 198.9 seconds | Papers analyzed: 1
