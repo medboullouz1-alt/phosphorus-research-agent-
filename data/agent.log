@@ -10314,3 +10314,42 @@
 2026-10-16 12:02:32,263 | INFO     | Telegram sent: True
 2026-10-16 12:02:32,355 | INFO     | CSV exported: data/papers_database.csv
 2026-10-16 12:02:32,355 | INFO     | Done in 210.0 seconds | Papers analyzed: 1
+2026-10-17 11:14:31,633 | INFO     | =======================================================
+2026-10-17 11:14:31,633 | INFO     | PIPELINE START — Saturday, 17 October 2026
+2026-10-17 11:14:31,633 | INFO     | =======================================================
+2026-10-17 11:14:31,633 | INFO     | Database ready.
+2026-10-17 11:14:31,633 | INFO     | Theme: 📈 Crop Yield Response to P Fertilization
+2026-10-17 11:14:31,633 | INFO     | Papers per day: 1
+2026-10-17 11:14:31,634 | INFO     | Searching: phosphorus management greenhouse gas
+2026-10-17 11:14:33,865 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:14:37,002 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+management+greenhouse+gas&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:14:50,052 | INFO     | Searching: phosphorus fertilizer GHG emissions
+2026-10-17 11:14:51,709 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:14:54,885 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:01,025 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+fertilizer+GHG+emissions&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:16,040 | INFO     | Searching: P fertilizer nitrous oxide N2O
+2026-10-17 11:15:17,814 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:20,933 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:27,055 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+nitrous+oxide+N2O&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:42,060 | INFO     | Searching: phosphorus soil carbon sequestration
+2026-10-17 11:15:43,567 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:46,682 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:15:52,918 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphorus+soil+carbon+sequestration&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:07,943 | INFO     | Searching: phosphate fertilizer climate change
+2026-10-17 11:16:09,532 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:12,781 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:18,894 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=phosphate+fertilizer+climate+change&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:33,727 | INFO     | Searching: crop yield phosphorus response
+2026-10-17 11:16:42,455 | INFO     | Searching: P fertilizer rate yield
+2026-10-17 11:16:44,267 | WARNING  | GET attempt 1 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:47,382 | WARNING  | GET attempt 2 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:16:53,519 | WARNING  | GET attempt 3 failed: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=P+fertilizer+rate+yield&limit=15&fields=paperId%2Ctitle%2Cauthors%2Cyear%2CexternalIds%2Cabstract%2Cjournal%2CcitationCount%2CopenAccessPdf%2CisOpenAccess
+2026-10-17 11:17:08,526 | INFO     | Unique papers found: 241
+2026-10-17 11:17:08,526 | INFO     | Fresh (not yet processed): 240
+2026-10-17 11:17:08,529 | INFO     | Deep analyzing 1/1: Water regime and fertilizer‐phosphorus source effects on greenhouse ga
+2026-10-17 11:17:08,530 | INFO     | Paper ready: Water regime and fertilizer‐phosphorus source effects on greenhouse gas emission
+2026-10-17 11:17:12,532 | INFO     | Generating synthesis across 1 papers...
+2026-10-17 11:17:16,533 | INFO     | Sending Telegram digest...
+2026-10-17 11:17:22,262 | INFO     | Telegram sent: True
+2026-10-17 11:17:22,275 | INFO     | CSV exported: data/papers_database.csv
+2026-10-17 11:17:22,275 | INFO     | Done in 170.6 seconds | Papers analyzed: 1
